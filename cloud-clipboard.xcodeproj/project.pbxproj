@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00ACEB9918E4535E0001B55F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00ACEB9818E4535E0001B55F /* Cocoa.framework */; };
+		00ACEBA318E4535E0001B55F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00ACEBA118E4535E0001B55F /* InfoPlist.strings */; };
+		00ACEBA518E4535E0001B55F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ACEBA418E4535E0001B55F /* main.m */; };
+		00ACEBA918E4535E0001B55F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 00ACEBA718E4535E0001B55F /* Credits.rtf */; };
+		00ACEBAC18E4535E0001B55F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ACEBAB18E4535E0001B55F /* AppDelegate.m */; };
+		00ACEBAF18E4535E0001B55F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00ACEBAD18E4535E0001B55F /* MainMenu.xib */; };
+		00ACEBB118E4535E0001B55F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00ACEBB018E4535E0001B55F /* Images.xcassets */; };
+		00ACEBB818E4535E0001B55F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00ACEBB718E4535E0001B55F /* XCTest.framework */; };
+		00ACEBB918E4535E0001B55F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00ACEB9818E4535E0001B55F /* Cocoa.framework */; };
+		00ACEBC118E4535E0001B55F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00ACEBBF18E4535E0001B55F /* InfoPlist.strings */; };
+		00ACEBC318E4535E0001B55F /* cloud_clipboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ACEBC218E4535E0001B55F /* cloud_clipboardTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00ACEBBA18E4535E0001B55F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00ACEB8D18E4535E0001B55F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00ACEB9418E4535E0001B55F;
+			remoteInfo = "cloud-clipboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00ACEB9518E4535E0001B55F /* cloud-clipboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cloud-clipboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00ACEB9818E4535E0001B55F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		00ACEB9B18E4535E0001B55F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		00ACEB9C18E4535E0001B55F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		00ACEB9D18E4535E0001B55F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00ACEBA018E4535E0001B55F /* cloud-clipboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cloud-clipboard-Info.plist"; sourceTree = "<group>"; };
+		00ACEBA218E4535E0001B55F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00ACEBA418E4535E0001B55F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00ACEBA618E4535E0001B55F /* cloud-clipboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cloud-clipboard-Prefix.pch"; sourceTree = "<group>"; };
+		00ACEBA818E4535E0001B55F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		00ACEBAA18E4535E0001B55F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00ACEBAB18E4535E0001B55F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00ACEBAE18E4535E0001B55F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		00ACEBB018E4535E0001B55F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00ACEBB618E4535E0001B55F /* cloud-clipboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cloud-clipboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00ACEBB718E4535E0001B55F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		00ACEBBE18E4535E0001B55F /* cloud-clipboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cloud-clipboardTests-Info.plist"; sourceTree = "<group>"; };
+		00ACEBC018E4535E0001B55F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00ACEBC218E4535E0001B55F /* cloud_clipboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cloud_clipboardTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00ACEB9218E4535E0001B55F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00ACEB9918E4535E0001B55F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00ACEBB318E4535E0001B55F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00ACEBB918E4535E0001B55F /* Cocoa.framework in Frameworks */,
+				00ACEBB818E4535E0001B55F /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00ACEB8C18E4535E0001B55F = {
+			isa = PBXGroup;
+			children = (
+				00ACEB9E18E4535E0001B55F /* cloud-clipboard */,
+				00ACEBBC18E4535E0001B55F /* cloud-clipboardTests */,
+				00ACEB9718E4535E0001B55F /* Frameworks */,
+				00ACEB9618E4535E0001B55F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00ACEB9618E4535E0001B55F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00ACEB9518E4535E0001B55F /* cloud-clipboard.app */,
+				00ACEBB618E4535E0001B55F /* cloud-clipboardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00ACEB9718E4535E0001B55F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00ACEB9818E4535E0001B55F /* Cocoa.framework */,
+				00ACEBB718E4535E0001B55F /* XCTest.framework */,
+				00ACEB9A18E4535E0001B55F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00ACEB9A18E4535E0001B55F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00ACEB9B18E4535E0001B55F /* AppKit.framework */,
+				00ACEB9C18E4535E0001B55F /* CoreData.framework */,
+				00ACEB9D18E4535E0001B55F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		00ACEB9E18E4535E0001B55F /* cloud-clipboard */ = {
+			isa = PBXGroup;
+			children = (
+				00ACEBAA18E4535E0001B55F /* AppDelegate.h */,
+				00ACEBAB18E4535E0001B55F /* AppDelegate.m */,
+				00ACEBAD18E4535E0001B55F /* MainMenu.xib */,
+				00ACEBB018E4535E0001B55F /* Images.xcassets */,
+				00ACEB9F18E4535E0001B55F /* Supporting Files */,
+			);
+			path = "cloud-clipboard";
+			sourceTree = "<group>";
+		};
+		00ACEB9F18E4535E0001B55F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00ACEBA018E4535E0001B55F /* cloud-clipboard-Info.plist */,
+				00ACEBA118E4535E0001B55F /* InfoPlist.strings */,
+				00ACEBA418E4535E0001B55F /* main.m */,
+				00ACEBA618E4535E0001B55F /* cloud-clipboard-Prefix.pch */,
+				00ACEBA718E4535E0001B55F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00ACEBBC18E4535E0001B55F /* cloud-clipboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				00ACEBC218E4535E0001B55F /* cloud_clipboardTests.m */,
+				00ACEBBD18E4535E0001B55F /* Supporting Files */,
+			);
+			path = "cloud-clipboardTests";
+			sourceTree = "<group>";
+		};
+		00ACEBBD18E4535E0001B55F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00ACEBBE18E4535E0001B55F /* cloud-clipboardTests-Info.plist */,
+				00ACEBBF18E4535E0001B55F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00ACEB9418E4535E0001B55F /* cloud-clipboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00ACEBC618E4535E0001B55F /* Build configuration list for PBXNativeTarget "cloud-clipboard" */;
+			buildPhases = (
+				00ACEB9118E4535E0001B55F /* Sources */,
+				00ACEB9218E4535E0001B55F /* Frameworks */,
+				00ACEB9318E4535E0001B55F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cloud-clipboard";
+			productName = "cloud-clipboard";
+			productReference = 00ACEB9518E4535E0001B55F /* cloud-clipboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00ACEBB518E4535E0001B55F /* cloud-clipboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00ACEBC918E4535E0001B55F /* Build configuration list for PBXNativeTarget "cloud-clipboardTests" */;
+			buildPhases = (
+				00ACEBB218E4535E0001B55F /* Sources */,
+				00ACEBB318E4535E0001B55F /* Frameworks */,
+				00ACEBB418E4535E0001B55F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00ACEBBB18E4535E0001B55F /* PBXTargetDependency */,
+			);
+			name = "cloud-clipboardTests";
+			productName = "cloud-clipboardTests";
+			productReference = 00ACEBB618E4535E0001B55F /* cloud-clipboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00ACEB8D18E4535E0001B55F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = GreenCoding;
+				TargetAttributes = {
+					00ACEBB518E4535E0001B55F = {
+						TestTargetID = 00ACEB9418E4535E0001B55F;
+					};
+				};
+			};
+			buildConfigurationList = 00ACEB9018E4535E0001B55F /* Build configuration list for PBXProject "cloud-clipboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00ACEB8C18E4535E0001B55F;
+			productRefGroup = 00ACEB9618E4535E0001B55F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00ACEB9418E4535E0001B55F /* cloud-clipboard */,
+				00ACEBB518E4535E0001B55F /* cloud-clipboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00ACEB9318E4535E0001B55F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00ACEBA318E4535E0001B55F /* InfoPlist.strings in Resources */,
+				00ACEBB118E4535E0001B55F /* Images.xcassets in Resources */,
+				00ACEBA918E4535E0001B55F /* Credits.rtf in Resources */,
+				00ACEBAF18E4535E0001B55F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00ACEBB418E4535E0001B55F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00ACEBC118E4535E0001B55F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00ACEB9118E4535E0001B55F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00ACEBAC18E4535E0001B55F /* AppDelegate.m in Sources */,
+				00ACEBA518E4535E0001B55F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00ACEBB218E4535E0001B55F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00ACEBC318E4535E0001B55F /* cloud_clipboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00ACEBBB18E4535E0001B55F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00ACEB9418E4535E0001B55F /* cloud-clipboard */;
+			targetProxy = 00ACEBBA18E4535E0001B55F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00ACEBA118E4535E0001B55F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00ACEBA218E4535E0001B55F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		00ACEBA718E4535E0001B55F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00ACEBA818E4535E0001B55F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		00ACEBAD18E4535E0001B55F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00ACEBAE18E4535E0001B55F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		00ACEBBF18E4535E0001B55F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00ACEBC018E4535E0001B55F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00ACEBC418E4535E0001B55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		00ACEBC518E4535E0001B55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		00ACEBC718E4535E0001B55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cloud-clipboard/cloud-clipboard-Prefix.pch";
+				INFOPLIST_FILE = "cloud-clipboard/cloud-clipboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00ACEBC818E4535E0001B55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cloud-clipboard/cloud-clipboard-Prefix.pch";
+				INFOPLIST_FILE = "cloud-clipboard/cloud-clipboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		00ACEBCA18E4535E0001B55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cloud-clipboard.app/Contents/MacOS/cloud-clipboard";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cloud-clipboard/cloud-clipboard-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "cloud-clipboardTests/cloud-clipboardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		00ACEBCB18E4535E0001B55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cloud-clipboard.app/Contents/MacOS/cloud-clipboard";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cloud-clipboard/cloud-clipboard-Prefix.pch";
+				INFOPLIST_FILE = "cloud-clipboardTests/cloud-clipboardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00ACEB9018E4535E0001B55F /* Build configuration list for PBXProject "cloud-clipboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00ACEBC418E4535E0001B55F /* Debug */,
+				00ACEBC518E4535E0001B55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00ACEBC618E4535E0001B55F /* Build configuration list for PBXNativeTarget "cloud-clipboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00ACEBC718E4535E0001B55F /* Debug */,
+				00ACEBC818E4535E0001B55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00ACEBC918E4535E0001B55F /* Build configuration list for PBXNativeTarget "cloud-clipboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00ACEBCA18E4535E0001B55F /* Debug */,
+				00ACEBCB18E4535E0001B55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00ACEB8D18E4535E0001B55F /* Project object */;
+}
