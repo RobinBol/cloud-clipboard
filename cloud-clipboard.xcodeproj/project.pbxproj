@@ -466,6 +466,7 @@
 				00ACEBC818E4535E0001B55F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00ACEBC918E4535E0001B55F /* Build configuration list for PBXNativeTarget "cloud-clipboardTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +475,7 @@
 				00ACEBCB18E4535E0001B55F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
