@@ -53,7 +53,7 @@
  */
 -(void)awakeFromNib{
     statusItem = [[[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength] self];
-    [statusItem setTitle:@"Clippy by Tim"];
+    [statusItem setTitle:@"Clippy bitch"];
     [statusItem setMenu:statusMenu];
 }
 
