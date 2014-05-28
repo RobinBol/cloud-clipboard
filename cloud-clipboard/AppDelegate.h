@@ -7,6 +7,8 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "GCDAsyncSocket.h"
+#import "SocketExtend.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate> {
     IBOutlet NSMenu *statusMenu;
@@ -15,15 +17,17 @@
     NSImage *statusHighLightImage;
     NSInteger lastChangeCount;
     NSArray *types;
+    NSArray *currentPasteboardData;
 }
+
 @property (weak) IBOutlet NSMenuItem *Menu1;
+
+@property (strong) SocketExtend *gcdSocket;
 
 -(IBAction)getPasteItem:(id)sender;
 
 @property (assign) IBOutlet NSWindow *window;
 
 @property(readwrite, retain) NSPasteboard *whichPboard;
-
-
 
 @end

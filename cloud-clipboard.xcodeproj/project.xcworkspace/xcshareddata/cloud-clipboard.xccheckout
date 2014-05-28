@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>D9BFEA1B-0484-4284-8FFE-58424A5D5FF5</string>
+	<string>DC1D09C6-03A8-4BF6-A3D0-92ACB82E0692</string>
 	<key>IDESourceControlProjectName</key>
 	<string>cloud-clipboard</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>E41472E3-B378-4A3A-BA34-448BF0D50AEF</key>
+		<key>1F762292-1322-4ADF-9EA0-4A1F637BFB72</key>
 		<string>http://github.com/RobinBol/cloud-clipboard.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>cloud-clipboard.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>E41472E3-B378-4A3A-BA34-448BF0D50AEF</key>
+		<key>1F762292-1322-4ADF-9EA0-4A1F637BFB72</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>E41472E3-B378-4A3A-BA34-448BF0D50AEF</string>
+	<string>1F762292-1322-4ADF-9EA0-4A1F637BFB72</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>E41472E3-B378-4A3A-BA34-448BF0D50AEF</string>
+			<string>1F762292-1322-4ADF-9EA0-4A1F637BFB72</string>
 			<key>IDESourceControlWCCName</key>
 			<string>cloud-clipboard</string>
 		</dict>

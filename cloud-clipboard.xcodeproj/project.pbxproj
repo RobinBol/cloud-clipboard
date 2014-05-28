@@ -18,6 +18,8 @@
 		00ACEBB918E4535E0001B55F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00ACEB9818E4535E0001B55F /* Cocoa.framework */; };
 		00ACEBC118E4535E0001B55F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00ACEBBF18E4535E0001B55F /* InfoPlist.strings */; };
 		00ACEBC318E4535E0001B55F /* cloud_clipboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ACEBC218E4535E0001B55F /* cloud_clipboardTests.m */; };
+		00E20B141918D3CA00BD5E92 /* SocketExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E20B131918D3CA00BD5E92 /* SocketExtend.m */; };
+		00FE9A2D1912BC6600F4599D /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FE9A2C1912BC6600F4599D /* GCDAsyncSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,10 @@
 		00ACEBBE18E4535E0001B55F /* cloud-clipboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cloud-clipboardTests-Info.plist"; sourceTree = "<group>"; };
 		00ACEBC018E4535E0001B55F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00ACEBC218E4535E0001B55F /* cloud_clipboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cloud_clipboardTests.m; sourceTree = "<group>"; };
+		00E20B121918D3CA00BD5E92 /* SocketExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketExtend.h; sourceTree = "<group>"; };
+		00E20B131918D3CA00BD5E92 /* SocketExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketExtend.m; sourceTree = "<group>"; };
+		00FE9A2B1912BC6600F4599D /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		00FE9A2C1912BC6600F4599D /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,11 +121,15 @@
 		00ACEB9E18E4535E0001B55F /* cloud-clipboard */ = {
 			isa = PBXGroup;
 			children = (
+				00FE9A2B1912BC6600F4599D /* GCDAsyncSocket.h */,
+				00FE9A2C1912BC6600F4599D /* GCDAsyncSocket.m */,
 				00ACEBAA18E4535E0001B55F /* AppDelegate.h */,
 				00ACEBAB18E4535E0001B55F /* AppDelegate.m */,
 				00ACEBAD18E4535E0001B55F /* MainMenu.xib */,
 				00ACEBB018E4535E0001B55F /* Images.xcassets */,
 				00ACEB9F18E4535E0001B55F /* Supporting Files */,
+				00E20B121918D3CA00BD5E92 /* SocketExtend.h */,
+				00E20B131918D3CA00BD5E92 /* SocketExtend.m */,
 			);
 			path = "cloud-clipboard";
 			sourceTree = "<group>";
@@ -198,6 +208,7 @@
 		00ACEB8D18E4535E0001B55F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = "";
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = GreenCoding;
 				TargetAttributes = {
@@ -252,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00FE9A2D1912BC6600F4599D /* GCDAsyncSocket.m in Sources */,
 				00ACEBAC18E4535E0001B55F /* AppDelegate.m in Sources */,
+				00E20B141918D3CA00BD5E92 /* SocketExtend.m in Sources */,
 				00ACEBA518E4535E0001B55F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +398,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cloud-clipboard/cloud-clipboard-Prefix.pch";
@@ -398,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cloud-clipboard/cloud-clipboard-Prefix.pch";
@@ -411,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cloud-clipboard.app/Contents/MacOS/cloud-clipboard";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -433,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cloud-clipboard.app/Contents/MacOS/cloud-clipboard";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
